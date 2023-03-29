@@ -4,6 +4,7 @@ import { FullScreenComponent } from './components/full-screen/full-screen.compon
 import { MarcadoresComponent } from './components/marcadores/marcadores.component';
 import { PropiedadesComponent } from './components/propiedades/propiedades.component';
 import { ZoomRangeComponent } from './components/zoom-range/zoom-range.component';
+import { RutasComponent } from '../rutas/rutas.component';
 
 const routes: Routes = [
   {
@@ -13,8 +14,8 @@ const routes: Routes = [
       {path:'zoom-range', component:ZoomRangeComponent },
       {path:'marcadores', component:MarcadoresComponent },
       {path:'propiedades', component:PropiedadesComponent },
-      {path:'**', redirectTo:'full-screen' },
-      {path:'fullscrenn', component:FullScreenComponent },
+      {path:'rutas', component:RutasComponent },
+      {path:'**', redirectTo:'full-screen' }
     ]
   }
 ];

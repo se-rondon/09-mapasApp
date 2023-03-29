@@ -7,6 +7,7 @@ import { MiniMapaComponent } from './components/mini-mapa/mini-mapa.component';
 import { MarcadoresComponent } from './components/marcadores/marcadores.component';
 import { PropiedadesComponent } from './components/propiedades/propiedades.component';
 import { ZoomRangeComponent } from './components/zoom-range/zoom-range.component';
+import { MapsModule } from '../maps/maps.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ZoomRangeComponent } from './components/zoom-range/zoom-range.component
   ],
   imports: [
     CommonModule,
-    MapasRoutingModule
+    MapasRoutingModule,
+    MapsModule
   ]
 })
 export class MapasModule { }

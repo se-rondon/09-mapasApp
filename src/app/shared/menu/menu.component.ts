@@ -33,6 +33,10 @@ export class MenuComponent {
       ruta:'/mapas/propiedades',
       nombre:'Propiedades'
     },
+    {
+      ruta:'/mapas/rutas',
+      nombre:'Rutas'
+    },
   ];
 
 }
